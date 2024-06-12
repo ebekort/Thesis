@@ -35,8 +35,9 @@ All the experiments were ran on the Hábrók server of the Rijksuniversiteit Gro
 
 To filter and select articles from a BibTeX file:
 
-1. Place your BibTeX file as `bibtext.txt` in the root directory. For reproducibility download the bibtext.txt from this github page and use the seed used in the code
-2. Run the script:
+1. Unzip the bibtext.zip file form this github to reproduce results, otherwise download a newer bibtext file from https://aclanthology.org/
+2. Place your BibTeX file as `bibtext.txt` in the root directory
+3. Run the script:
 
     ```bash
     python rand.py
