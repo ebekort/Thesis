@@ -1,1 +1,5 @@
 bibtexparser==2.0.0b7
+transformers
+torch
+huggingface_hub
+evaluate
