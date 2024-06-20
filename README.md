@@ -50,7 +50,7 @@ This will generate a `data.json` file containing the selected articles.
 To summarize articles using the LLaMA 3 model:
 
 1. Ensure you are logged in to Huggingface using huggingface-cli login and make sure your account has access to the Llama-3-8b-Instruct model.
-2. Run the summarization script:
+2. Run the summarization script and make sure the data.json file is in the same directory:
 
     ```bash
     python summarizer.py
